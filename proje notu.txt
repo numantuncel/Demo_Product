@@ -1,0 +1,1 @@
+Constructor metodunun kullanımı, sınıfın bağımlılıklarını dışarıdan almasını ve böylece daha esnek, test edilebilir ve bakımı kolay bir kod yapısının oluşturulmasını sağlar. Bu, modern yazılım geliştirme pratiklerinde önemli bir yere sahip olan bağımlılıkların enjeksiyonu prensibinin bir uygulamasıdır.

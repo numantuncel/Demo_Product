@@ -1,0 +1,35 @@
+﻿@model EntityLayer.Concrete.Job
+@{
+    ViewData["Title"] = "AddJob";
+    Layout = "~/Views/Shared/_IULayout.cshtml";
+}
+<style>
+    .kaydet {
+        background-color: paleturquoise;
+        color: black;
+        font-size: 15px;
+        border-radius: 30px;
+        font-weight: 700;
+        padding: 10px 20px;
+        border: none;
+        transition: all 1s;
+    }
+
+        .kaydet:hover {
+            background-color: palevioletred;
+            color: white;
+        }
+
+</style>
+
+
+<form method="post">
+    @Html.Label("Meslek Adı:")
+    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.Name)
+    <br />
+    <br />
+    <button class="kaydet">Kaydet</button>
+
+
+</form>

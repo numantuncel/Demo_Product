@@ -1,0 +1,12 @@
+﻿*Arama İşlemi
+*Üyelik Sistemi
+*Identity 
+*Yardım Popup
+*Footer
+Ayarlar
+Çıkış Yap
+Giriş Yap
+Yeni Üye Kaydı
+Admin Tablosu
+Publish
+Canlıya Taşıma
